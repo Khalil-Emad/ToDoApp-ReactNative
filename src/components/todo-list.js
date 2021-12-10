@@ -20,7 +20,7 @@ const TodoList = ({ todos }) => {
                 return (
                     <View style={styles.item}>
                         <Text>Title: {item.title}</Text>
-                        <CheckBox value={item.done} onChange={() => textDoc(item)} />
+                        {/* <CheckBox value={item.done} onChange={() => textDoc(item)} /> */}
                     </View>
                 );
             }}
